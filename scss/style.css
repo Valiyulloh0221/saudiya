@@ -25,7 +25,27 @@ body p {
   padding-right: 40px;
 }
 body h4 {
+  padding-top: 15px;
   padding-left: 40px;
   padding-right: 40px;
   text-align: center;
+  padding-bottom: 10px;
+}
+body .linc {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .linc button {
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(227, 156, 4);
+  width: 100px;
+  height: 28px;
+  cursor: pointer;
+  color: #FFF;
+}
+body .linc button a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

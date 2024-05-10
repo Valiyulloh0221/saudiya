@@ -23,8 +23,28 @@ body{
     padding-right: 40px;
   }
   h4{
+    padding-top: 15px;
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
+    padding-bottom: 10px;
+  }
+  .linc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+      border-radius: 4px;
+      border: none;
+      background-color: rgb(227, 156, 4);
+      width: 100px;
+      height: 28px;
+      cursor: pointer;
+      color: #FFF;
+      a{
+        text-decoration: none;
+      }
+    }
   }
 }
